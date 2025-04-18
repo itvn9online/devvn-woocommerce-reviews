@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"Project-Id-Version: DevVN Woocommerce Reviews\n"
+"Project-Id-Version: Echbay Woocommerce Reviews\n"
 "POT-Creation-Date: 2019-11-21 16:52+0700\n"
 "PO-Revision-Date: 2019-11-18 23:56+0700\n"
 "Last-Translator: \n"
@@ -441,7 +441,7 @@ msgid "Type your comments..."
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "DevVN Woocommerce Reviews"
+msgid "Echbay Woocommerce Reviews"
 msgstr ""
 
 #. Plugin URI of the plugin/theme

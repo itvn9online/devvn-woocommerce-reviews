@@ -1,6 +1,6 @@
 <?php
 /*
-* Plugin Name: DevVN Woocommerce Reviews
+* Plugin Name: Echbay Woocommerce Reviews
 * Version: 2.0.9
 * Description: Thay đổi giao diện phần đánh giá và thêm phần thảo luận cho chi tiết sản phẩm trong Woocommerce
 * Author: Dao Quoc Dai
@@ -1001,7 +1001,7 @@ if (!class_exists('DevVN_Reviews_Class')) {
             $class = 'notice notice-error';
             $license_key = $devvn_review_settings['license_key'];
             if (!$license_key) {
-                printf('<div class="%1$s"><p><strong>Plugin DevVN Woocommerce Reviews:</strong> Hãy điền <strong>License Key</strong> để tự động cập nhật khi có phiên bản mới. <a href="%2$s">Thêm tại đây</a></p></div>', esc_attr($class), esc_url(admin_url('admin.php?page=devvn-woocommerce-reviews')));
+                printf('<div class="%1$s"><p><strong>Plugin Echbay Woocommerce Reviews:</strong> Hãy điền <strong>License Key</strong> để tự động cập nhật khi có phiên bản mới. <a href="%2$s">Thêm tại đây</a></p></div>', esc_attr($class), esc_url(admin_url('admin.php?page=devvn-woocommerce-reviews')));
             }
         }
 

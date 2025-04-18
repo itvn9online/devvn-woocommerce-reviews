@@ -1,5 +1,5 @@
 ﻿/*
-* Plugin DevVN Woocommerce Reviews
+* Plugin Echbay Woocommerce Reviews
 * Author: https://github.com/itvn9online/devvn-woocommerce-reviews
 */
 
