@@ -89,7 +89,7 @@ if (!class_exists('DevVN_Reviews_Class')) {
 
             include_once('includes/updates.php');
 
-            add_action('admin_notices', array($this, 'admin_notices'));
+            // add_action('admin_notices', array($this, 'admin_notices'));
             if (is_admin()) {
                 add_action('in_plugin_update_message-' . DEVVN_REVIEWS_BASENAME, array($this, 'devvn_modify_plugin_update_message'), 10, 2);
             }
@@ -224,18 +224,20 @@ if (!class_exists('DevVN_Reviews_Class')) {
                             </tr>
                         </tbody>
                     </table>
-                    <h2><?php _e('License', 'devvn-reviews'); ?></h2>
-                    <table class="form-table">
-                        <tbody>
-                            <tr>
-                                <th scope="row"><label for="license_key"><?php _e('License key', 'devvn-reviews'); ?></label></th>
-                                <td>
-                                    <input type="text" id="license_key" value="<?php echo esc_attr($devvn_review_settings['license_key']); ?>" name="<?php echo $this->_optionName . '[license_key]' ?>">
-                                    <?php if (!$devvn_review_settings['license_key']): ?><br><small><?php echo sprintf(__('Nếu bạn đã mua plugin và chưa nhận được license. Hãy gửi email + domain qua <a href="%s" target="_blank">facebook</a> để nhận license', 'devvn-reviews'), 'https://github.com/itvn9online/devvn-woocommerce-reviews'); ?></small><?php endif; ?>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div style="display: none;">
+                        <h2><?php _e('License', 'devvn-reviews'); ?></h2>
+                        <table class="form-table">
+                            <tbody>
+                                <tr>
+                                    <th scope="row"><label for="license_key"><?php _e('License key', 'devvn-reviews'); ?></label></th>
+                                    <td>
+                                        <input type="text" id="license_key" value="<?php echo esc_attr($devvn_review_settings['license_key']); ?>" name="<?php echo $this->_optionName . '[license_key]' ?>">
+                                        <?php if (!$devvn_review_settings['license_key']): ?><br><small><?php echo sprintf(__('Nếu bạn đã mua plugin và chưa nhận được license. Hãy gửi email + domain qua <a href="%s" target="_blank">facebook</a> để nhận license', 'devvn-reviews'), 'https://github.com/itvn9online/devvn-woocommerce-reviews'); ?></small><?php endif; ?>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     <?php do_settings_fields($this->_optionGroup, 'default'); ?>
                     <?php do_settings_sections($this->_optionGroup, 'default'); ?>
                     <?php submit_button(); ?>
