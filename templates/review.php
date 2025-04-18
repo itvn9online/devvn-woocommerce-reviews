@@ -20,7 +20,6 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
-global $devvn_review_settings;
 ?>
 <li <?php comment_class(); ?> id="li-comment-<?php comment_ID(); ?>">
 	<div id="comment-<?php comment_ID(); ?>" class="comment_container devvn_review_box">
@@ -71,11 +70,8 @@ global $devvn_review_settings;
                     )
                 );
                 ?>
-                <?php do_action('devvn_reviews_action', $comment);?>
-                <?php if($devvn_review_settings['show_date'] == "1"):?>
                 <span> • </span>
                 <time class="woocommerce-review__published-date" datetime="<?php echo esc_attr( get_comment_date( 'c' ) ); ?>"><?php echo esc_html( get_comment_date( wc_date_format() ) ); ?></time>
-                <?php endif;?>
             </div>
 
 		</div>

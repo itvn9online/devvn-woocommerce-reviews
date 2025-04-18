@@ -131,7 +131,7 @@ if ( ! comments_open() ) {
                     }
                     if(!$devvn_review_settings['disable_upload']) {
                         $attach = '<span class="btn-attach devvn_insert_attach">Gửi ảnh chụp thực tế</span>';
-                        //$attach .= '<input type="file" name="files" id="files" accept="image/jpeg, image/png, image/gif, image/x-png">';
+                        $attach .= '<input type="file" name="files" id="files" accept="image/jpeg, image/png, image/gif, image/x-png">';
 
                         $list_attach = '<div class="list_attach">';
                         $list_attach .= '<ul class="devvn_attach_view"></ul><span class="devvn_insert_attach"><i class="devvn-plus">+</i></span>';
@@ -158,12 +158,6 @@ if ( ! comments_open() ) {
                     comment_form( apply_filters( 'woocommerce_product_review_comment_form_args', $comment_form ) );
 
                     $page_quy_dinh_danh_gia = get_option( 'woocommerce_terms_page_id' );
-                    if(!$page_quy_dinh_danh_gia && class_exists('acf')){
-                        $page_quy_dinh_danh_gia = get_field('page_quy_dinh_danh_gia', 'option');
-                        if($page_quy_dinh_danh_gia) {
-                            $page_quy_dinh_danh_gia = $page_quy_dinh_danh_gia->ID;
-                        }
-                    }
                     if($page_quy_dinh_danh_gia){
                         printf(__('<div class="note_review"><u>Lưu ý:</u> Để đánh giá được duyệt, quý khách vui lòng tham khảo %s</div>','devvn'), '<a href="'.get_permalink($page_quy_dinh_danh_gia).'" title="" target="_blank">'.get_the_title($page_quy_dinh_danh_gia).'</a>');
                     }
@@ -175,7 +169,69 @@ if ( ! comments_open() ) {
             <p class="woocommerce-verification-required"><?php esc_html_e( 'Only logged in customers who have purchased this product may leave a review.', 'woocommerce' ); ?></p>
         <?php endif; ?>
 
+		<?php if ( have_comments() ) : ?>
+			<ol class="commentlist">
+				<?php wp_list_comments( apply_filters( 'woocommerce_product_review_list_args', array( 'callback' => 'woocommerce_comments', 'type'=>'review' ) ) ); ?>
+			</ol>
+
+			<?php
+			if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) :
+				echo '<nav class="woocommerce-pagination">';
+				paginate_comments_links(
+					apply_filters(
+						'woocommerce_comment_pagination_args',
+						array(
+							'prev_text' => '&larr;',
+							'next_text' => '&rarr;',
+							'type'      => 'list',
+						)
+					)
+				);
+				echo '</nav>';
+			endif;
+			?>
+		<?php else : ?>
+			<p class="woocommerce-noreviews"><?php esc_html_e( 'There are no reviews yet.', 'woocommerce' ); ?></p>
+		<?php endif; ?>
 	</div>
 
 	<div class="clear"></div>
+</div>
+
+<div class="devvn_prod_cmt">
+    <div class="devvn_cmt_form">
+        <form action="" method="post" id="devvn_cmt">
+        <div class="devvn_cmt_input">
+            <textarea placeholder="Mời bạn tham gia thảo luận, vui lòng nhập tiếng Việt có dấu" name="devvn_cmt_content" id="devvn_cmt_content" minlength="20"></textarea>
+        </div>
+        <div class="devvn_cmt_form_bottom <?php echo (!is_user_logged_in()) ? '' : 'no-infor';?>">
+            <?php if(!is_user_logged_in()):?>
+            <div class="devvn_cmt_radio">
+                <label>
+                    <input name="devvn_cmt_gender" type="radio" value="male" checked/>
+                    <span>Anh</span>
+                </label>
+                <label>
+                    <input name="devvn_cmt_gender" type="radio" value="female"/>
+                    <span>Chị</span>
+                </label>
+            </div>
+            <div class="devvn_cmt_input">
+                <input name="devvn_cmt_name" type="text" id="devvn_cmt_name" placeholder="Họ tên (bắt buộc)"/>
+            </div>
+            <div class="devvn_cmt_input">
+                <input name="devvn_cmt_email" type="text" id="devvn_cmt_email" placeholder="Email"/>
+            </div>
+            <?php endif;?>
+            <div class="devvn_cmt_submit">
+                <button type="submit" id="devvn_cmt_submit">Gửi</button>
+                <input type="hidden" value="<?php echo $product->get_id();?>" name="post_ID">
+                <input type="hidden" value="" name="cmt_parent_id">
+            </div>
+        </div>
+        </form>
+    </div>
+    <div class="devvn_cmt_list">
+        <?php echo devvn_reviews()->devvn_list_all_tcomment($product);?>
+    </div>
 </div>

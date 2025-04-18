@@ -5,22 +5,6 @@
 
 == Những thay đổi ==
 
-= V1.1.0 - 29.10.2019 =
-* Fix: Sửa lỗi không up được ảnh khi sử dụng safari trên iphone
-* Update: Thêm option số lượng hình ảnh được up lên khi đánh giá. Mặc định là 3 hình
-
-= V1.0.9 - 04.10.2019 =
-
-* Add: Thêm nút thích trong từng review và bình luận (Option)
-* Update: Có thể sửa label "Đã mua hàng tại..."
-
-= V1.0.8 - 26.09.2019 =
-
-* Fix: Chuyển trang comment sẽ nhảy tới đúng mục comment trong trang hiện tại
-* Add: Ẩn ngày đánh giá và bình luận (tùy chỉnh)
-* Add: Thêm chức năng tắt bình luận. Chỉ để đánh giá sản phẩm
-* Add: Thêm chức năng fake label đã mua hàng cho từng review trong admin
-
 = V1.0.7 - 10.08.2019 =
 
 * Fix: Đếm lại tổng số review. đã loại trừ các review của admin trả lời trong admin

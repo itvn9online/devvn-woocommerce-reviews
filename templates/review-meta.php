@@ -20,9 +20,6 @@ defined( 'ABSPATH' ) || exit;
 global $comment;
 $verified = wc_review_is_from_verified_owner( $comment->comment_ID );
 
-global $devvn_review_settings;
-$label_review = $devvn_review_settings['label_review'];
-
 if ( '0' === $comment->comment_approved ) { ?>
 
 	<p class="meta">
@@ -38,11 +35,7 @@ if ( '0' === $comment->comment_approved ) { ?>
 		<strong class="woocommerce-review__author"><?php comment_author(); ?> </strong>
 		<?php
 		if ( 'yes' === get_option( 'woocommerce_review_rating_verification_label' ) && $verified ) {
-		    if($label_review){
-                echo '<em class="woocommerce-review__verified verified">' . $label_review . '</em> ';
-            }else {
-                echo '<em class="woocommerce-review__verified verified">' . sprintf(esc_attr__('Đã mua tại %s', 'devvn'), $_SERVER['SERVER_NAME']) . '</em> ';
-            }
+			echo '<em class="woocommerce-review__verified verified">' . sprintf(esc_attr__( 'Đã mua tại %s', 'devvn' ), $_SERVER['SERVER_NAME']) . '</em> ';
 		}
 		$user_roles = array();
         $user_id = $comment->user_id;

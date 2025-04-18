@@ -24,7 +24,3 @@ span.mess {
 .devvn_reviews_wrap td p{
     margin-bottom: 10px;
 }
-.devvn_reviews_wrap input[type="text"] {
-    width: 100%;
-    max-width: 580px;
-}
