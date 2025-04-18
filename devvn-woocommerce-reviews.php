@@ -3,9 +3,9 @@
 * Plugin Name: DevVN Woocommerce Reviews
 * Version: 2.0.7
 * Description: Thay đổi giao diện phần đánh giá và thêm phần thảo luận cho chi tiết sản phẩm trong Woocommerce
-* Author: Lê Văn Toản
-* Author URI: https://levantoan.com/
-* Plugin URI: https://levantoan.com/san-pham/devvn-woocommerce-reviews/
+* Author: Dao Quoc Dai
+* Author URI: https://github.com/itvn9online/devvn-woocommerce-reviews
+* Plugin URI: https://github.com/itvn9online/devvn-woocommerce-reviews
 * Text Domain: devvn-reviews
 * Domain Path: /languages
 * WC requires at least: 3.5.4
@@ -154,7 +154,7 @@ if (!class_exists('DevVN_Reviews_Class')) {
 ?>
             <div class="wrap devvn_reviews_wrap">
                 <h1><?php _e('Cài đặt bình luận và đánh giá cho Woocommerce', 'devvn-reviews'); ?></h1>
-                <p><span style="color: red;">Chú ý:</span> Đọc thêm về phần chú ý cài đặt để plugin hoạt động chính xác hơn. <a href="https://levantoan.com/san-pham/devvn-woocommerce-reviews/#chu-y" rel="nofollow" target="_blank">Đọc tại đây</a> </p>
+                <p><span style="color: red;">Chú ý:</span> Đọc thêm về phần chú ý cài đặt để plugin hoạt động chính xác hơn. <a href="https://github.com/itvn9online/devvn-woocommerce-reviews" rel="nofollow" target="_blank">Đọc tại đây</a> </p>
                 <form method="post" action="options.php" novalidate="novalidate">
                     <?php
                     settings_fields($this->_optionGroup);
@@ -231,7 +231,7 @@ if (!class_exists('DevVN_Reviews_Class')) {
                                 <th scope="row"><label for="license_key"><?php _e('License key', 'devvn-reviews'); ?></label></th>
                                 <td>
                                     <input type="text" id="license_key" value="<?php echo esc_attr($devvn_review_settings['license_key']); ?>" name="<?php echo $this->_optionName . '[license_key]' ?>">
-                                    <?php if (!$devvn_review_settings['license_key']): ?><br><small><?php echo sprintf(__('Nếu bạn đã mua plugin và chưa nhận được license. Hãy gửi email + domain qua <a href="%s" target="_blank">facebook</a> để nhận license', 'devvn-reviews'), 'https://m.me/levantoan.wp'); ?></small><?php endif; ?>
+                                    <?php if (!$devvn_review_settings['license_key']): ?><br><small><?php echo sprintf(__('Nếu bạn đã mua plugin và chưa nhận được license. Hãy gửi email + domain qua <a href="%s" target="_blank">facebook</a> để nhận license', 'devvn-reviews'), 'https://github.com/itvn9online/devvn-woocommerce-reviews'); ?></small><?php endif; ?>
                                 </td>
                             </tr>
                         </tbody>
@@ -241,7 +241,7 @@ if (!class_exists('DevVN_Reviews_Class')) {
                     <?php submit_button(); ?>
                 </form>
             </div>
-            <p>Plugin được phát triển bởi <a href="https://levantoan.com" rel="nofollow" target="_blank">Lê Văn Toản</a></p>
+            <p>Plugin được phát triển lại bởi <a href="https://github.com/itvn9online/devvn-woocommerce-reviews" rel="nofollow" target="_blank">Dao Quoc Dai</a></p>
             <?php
         }
 
@@ -1011,7 +1011,7 @@ if (!class_exists('DevVN_Reviews_Class')) {
             $license_key = sanitize_text_field($devvn_review_settings['license_key']);
             if ($license_key && isset($plugin_data['package']) && $plugin_data['package']) return;
             $PluginURI = isset($plugin_data['PluginURI']) ? $plugin_data['PluginURI'] : '';
-            echo '<br />' . sprintf(__('<strong>Mua bản quyền để được tự động update. <a href="%s" target="_blank">Xem thêm thông tin mua bản quyền</a></strong> hoặc liên hệ mua trực tiếp qua <a href="%s" target="_blank">facebook</a>', 'devvn-quickbuy'), $PluginURI, 'https://m.me/levantoan.wp');
+            echo '<br />' . sprintf(__('<strong>Mua bản quyền để được tự động update. <a href="%s" target="_blank">Xem thêm thông tin mua bản quyền</a></strong> hoặc liên hệ mua trực tiếp qua <a href="%s" target="_blank">facebook</a>', 'devvn-quickbuy'), $PluginURI, 'https://github.com/itvn9online/devvn-woocommerce-reviews');
         }
 
         public function admin_enqueue_scripts()

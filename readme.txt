@@ -1,6 +1,6 @@
 ﻿/*
 * Plugin DevVN Woocommerce Reviews
-* Author: https://levantoan.com
+* Author: https://github.com/itvn9online/devvn-woocommerce-reviews
 */
 
 == Những thay đổi ==
@@ -23,7 +23,7 @@
 * Add: Thêm label "Quản trị viên" cho phần reviews
 
 = V1.0.4  - 03.08.2019 =
-* Update: Thêm phần chú ý sau khi cài đặt. Bỏ bắt buộc email trong setting https://levantoan.com/san-pham/devvn-woocommerce-reviews/#chu-y
+* Update: Thêm phần chú ý sau khi cài đặt. Bỏ bắt buộc email trong setting https://github.com/itvn9online/devvn-woocommerce-reviews
 * Fix: Sửa một số cảnh báo nhỏ
 
 = V1.0.3  - 02.08.2019 =
