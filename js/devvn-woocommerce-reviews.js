@@ -1,1 +1,470 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('!6(v,a){v(23).2u(6(){6 e(){j e=v("#2t"),t=v("#1a").8();X(0!=(t=v.21(t)).U){t.2C(/\\W/);e.1b(t.U+" ký tự (tối Vểu "+w.P+")")}1X e.1b("0 ký tự (tối Vểu "+w.P+")")}X(v(3c).2R(6(){v("E p.1n a").1c(6(e){2q(e){D 0:v(7).J("Rất tệ");Q;D 1:v(7).J("Tệ");Q;D 2:v(7).J("Bìf 2gườm");Q;D 3:v(7).J("Tốt");Q;D 4:v(7).J("Rất tốt")}}),v("E").I("K","#1p p.1n a",6(){j e=v(7),t=v(7).11("#1p").2P("#2T");v(7).11(".1n");2q(e.1b()){D"Rất tệ":t.8(1);Q;D"Tệ":t.8(2);Q;D"Bìf 2gườm":t.8(3);Q;D"Tốt":t.8(4);Q;D"Rất tốt":t.8(5)}}),v("E p.1n a.2J-5").2d("K")}),v("#1a").30(6(){e()}),e(),v.2o.22("2i",6(e,t){z/^0+(\\d{9,10})$/.1V(e)},"Hãy điền đúm số điện 2jại"),v.2o.22("1q",6(e,t){z""==e||/^([a-1Q-1P-3a.+-])+\\@(([a-1Q-1P-9-])+\\.)+([a-1Q-1P-9]{2,4})+$/.1V(e)},"Địf dạm M 27ôm đúm."),v("#1j").1u({2V:6(e,t){t.2z()?v("F.1d").15():v("F.1d").2X()},1t:{1U:{C:!0,A:2},2h:{C:{31:6(){z v(7).8(v.21(v(7).8())),!0}},2i:!0,A:2},M:{1q:!0},1a:{C:!0,A:w.P}},18:{1U:"Hãy fập họ tên",M:"Hãy fập đúm M",2h:"Hãy fập số điện 2jại",1a:{C:"Hãy fập nội 1r 17 fắn",A:"Tối Vểu "+w.P+" ký tự"}},2M:"F",1x:6(e,t){t.34(e)}}),v(".16-33-25").I("K",6(){X(v("2Z.2e .1a-1p").U<=0)v.1w.2Q({2Y:{28:"#2U",13:"2W"},2S:!1,2O:!1,2N:!0});1X{j e=v(".2e #1p").38().39;v("J, E").3b({37:e-36},32)}}),v(23).I("K",".35-1o-2v",6(e){e.2s(),v.1w.1o()}),0<v("#1j").U){v("#1j")[0].2B="2I/2G-g";j l=v(".2D"),t=v(".2L");6 c(){v("S",l).U<=2&&0<v("S",l).U?t.1e("15-16"):t.O("15-16")}v("E").I("2F","#1i",6(e){X(!e.1D.1i)z;j t=e.1D.1i[0],n=v(7);X(t){j a=2H 2K;a.2A=6(t){z 6(e){!6(e,t){z 0!=6(e){z"1g/2w"==e||("1g/1E"==e||("1g/x-1E"==e||"1g/26"==e))}(t.13)?0!=6(e){z e<w.2y}(t.2x)||(q("Tập 17 ("+t.G+") 2Eá lớn. 1Cỉ 3w 2bép tải ảf fỏ hơn "+w.3H),!1):(q("Tập 17 ("+t.G+") 27ôm đúm địf dạm. 1Cỉ được tải lên 3J 3G/1E/26"),!1)}(0,t)||6(e,t,n){j a=n.3F().1B("G","3B[]").3C("29"),i=v.25(),r=\'<S><F 14="1f-1G"><24 14="1o">&3L;</24><F 14="1f-1G-3E"><1f 14="3K" 28="\'+e.1D.1m+\'" 3N="\'+3T(t.G)+\'" g-29="\'+t.G+\'"/></F></F><F 14="\'+i+\'"></F></S>\';l.1A(r),v("."+i).1A(a),c()}(e,t,n)}}(t),a.3S(t)}}),v("E").I("K",".3R",6(){j e=v(7).11("#1j");z 0==(3<=v("S",l).U?(t.O("15-16"),!1):(t.1e("15-16"),!0))?q("1Cỉ được 2bép tải lên 3 ảf"):v("#1i",e).2d("K"),!1}),v("E").I("K",".1f-1G .1o",6(){v(7).11("S").1h(),c()})}j s=!1,n=v("#3Q"),o=v(".3P");n.1u({1Y:!1,1W:!1,2a:!1,1t:{1I:{C:!0,A:2},1H:{1q:!0},19:{C:!0,A:w.P}},18:{1I:{C:"Hãy fập họ tên",A:"Họ tên tối Vểu 2 ký tự"},1H:"Hãy fập đúm M",19:{C:"Hãy fập nội 1r 17 fắn",A:"Nội dùm bìf 2lận tối Vểu "+w.P+" ký tự"}},1x:6(e,t){q(e.1b())},2p:6(t){X(!s){j e=v(t).1O(),n=v("#19",t).8(),a=v(\'2r[G="3D"]\',t).8(),i=v("#1I",t).8(),r=v("#1H",t).8();z v.1K({13:"1y",1z:"1v",1s:w.1J,g:{1F:"2f",2n:e,2m:n,2k:a,G:i,M:r},1N:7,1S:6(){s=!0,o.1e("L")},12:6(e){e.12?(e.g.1m&&e.g.Y&&v.1c(e.g.Y,6(e,t){v(e).J(t)}),q(e.g.18),v("#19",t).8("")):q(e.g),s=!1,o.O("L")},1d:6(e,t,n){q(e.1M),s=!1,o.O("L")}}),!1}}});j r=a.3z("3k-3l-3m");v("E").I("K",".Z",6(){v(".1k #Z").1h();j e=v(7).11("S"),t=v(7).1B("g-3d"),n="@"+v(7).1B("g-1L")+": ";0<v(".20",e).U?v(".20 S:3n-3j(1)",e).3i(r({1Z:t,1L:n})):e.1A(r({1Z:t,1L:n}));j a=v(".1k #Z #1l"),i=a.8();z a.8("").3e().8(i),v(".1k #Z").1u({1Y:!1,1W:!1,2a:!1,1t:{1T:{C:!0,A:2},1R:{1q:!0},1l:{C:!0,A:w.P}},18:{1T:{C:"Hãy fập họ tên",A:"Họ tên tối Vểu 2 ký tự"},1R:"Hãy fập đúm M",1l:{C:"Hãy fập nội 1r 17 fắn",A:"Nội dùm bìf 2lận tối Vểu "+w.P+" ký tự"}},1x:6(e,t){q(e.1b())},2p:6(t){X(!s){j e=v(t).1O(),n=v("#1l",t).8(),a=v(\'2r[G="3y"]\',t).8(),i=v("#1T",t).8(),r=v("#1R",t).8();z v.1K({13:"1y",1z:"1v",1s:w.1J,g:{1F:"2f",2n:e,2m:n,2k:a,G:i,M:r},1N:7,1S:6(){s=!0,o.1e("L")},12:6(e){e.12?(e.g.1m&&e.g.Y&&v.1c(e.g.Y,6(e,t){v(e).J(t)}),q(e.g.18),v("#19",t).8("")):q(e.g),v(".1k #Z").1h(),s=!1,o.O("L")},1d:6(e,t,n){q(e.1M),s=!1,o.O("L")}}),!1}}}),!1}),v("E").I("K",".3u",6(){v(7).11("#Z").1h()}),v("E").I("3q","#3r",6(){j e=v("#2c",7).8(),t=v(7).1O();z s||v.1K({13:"1y",1z:"1v",1s:w.1J,g:{1F:"2c",3s:e,3t:t},1N:7,1S:6(){s=!0,o.1e("L")},12:6(e){e.12?e.g.1m&&e.g.Y&&v.1c(e.g.Y,6(e,t){v(e).J(t)}):q(e.g),s=!1,o.O("L")},1d:6(e,t,n){q(e.1M),s=!1,o.O("L")}}),!1}),v(".3v").1c(6(){v(7).1w({3x:"a",13:"1g",3p:"3o-1f-3h",3g:{3f:!0,3O:!0,3M:0}})})})}(3I,3A);',62,242,'||||||function|this|val|||||||nh|data|||var|||ng||||alert||||||devvn_reviews|||return|minlength||required|case|body|div|name||on|html|click|devvn_loading|email||removeClass|cmt_length|break||li||length|thi||if|fragments|devvn_cmt_reply||closest|success|type|class|show|btn|tin|messages|devvn_cmt_content|comment|text|each|error|addClass|img|image|remove|files|commentform|devvn_cmt_list_box|devvn_cmt_replycontent|result|stars|close|respond|customemail|dung|url|rules|validate|json|magnificPopup|errorPlacement|post|dataType|append|attr|Ch|target|png|action|wrap|devvn_cmt_email|devvn_cmt_name|ajax_url|ajax|authorname|responseText|context|serialize|Z0|zA|devvn_cmt_replyemail|beforeSend|devvn_cmt_replyname|author|test|onkeyup|else|onclick|parent_id|devvn_cmt_child|trim|addMethod|document|span|now|gif|kh|src|id|onfocusout|ph|devvn_cmt_search|trigger|commentlist|devvn_cmt_submit|th|phone|vietnamphone|tho|gender|lu|content|cmt_data|validator|submitHandler|switch|input|preventDefault|countContent|ready|small|jpeg|size|img_size|numberOfInvalids|onload|encoding|split|devvn_attach_view|qu|change|form|new|multipart|star|FileReader|list_attach|errorElement|modal|closeOnBgClick|find|open|load|showCloseBtn|rating|review_form_wrapper|invalidHandler|inline|hide|items|ol|keyup|depends|500|reviews|after|fancybox|44|scrollTop|offset|top|9_|animate|window|cmtid|focus|enabled|gallery|mobile|prepend|child|reply|devvn|cmt|nth|mfp|mainClass|submit|devvn_cmt_search_form|search|formData|devvn_cancel_cmt|cmt_attachment_img|cho|delegate|devvn_cmt_replygender|template|wp|attach|removeAttr|devvn_cmt_gender|box|clone|jpg|img_size_text|jQuery|file|thumb|times|preload|title|navigateByImgClick|devvn_prod_cmt|devvn_cmt|devvn_insert_attach|readAsDataURL|encodeURI'.split('|'),0,{}));
+!(function (v, a) {
+	v(document).ready(function () {
+		function e() {
+			var e = v("#countContent"),
+				t = v("#comment").val();
+			if (0 != (t = v.trim(t)).length) {
+				t.split(/\W/);
+				e.text(
+					t.length + " ký tự (tối thiểu " + devvn_reviews.cmt_length + ")"
+				);
+			} else e.text("0 ký tự (tối thiểu " + devvn_reviews.cmt_length + ")");
+		}
+		if (
+			(v(window).on("load", function () {
+				v("body p.stars a").each(function (e) {
+					switch (e) {
+						case 0:
+							v(this).html("Rất tệ");
+							break;
+						case 1:
+							v(this).html("Tệ");
+							break;
+						case 2:
+							v(this).html("Bình thường");
+							break;
+						case 3:
+							v(this).html("Tốt");
+							break;
+						case 4:
+							v(this).html("Rất tốt");
+					}
+				}),
+					v("body").on("click", "#respond p.stars a", function () {
+						var e = v(this),
+							t = v(this).closest("#respond").find("#rating");
+						v(this).closest(".stars");
+						switch (e.text()) {
+							case "Rất tệ":
+								t.val(1);
+								break;
+							case "Tệ":
+								t.val(2);
+								break;
+							case "Bình thường":
+								t.val(3);
+								break;
+							case "Tốt":
+								t.val(4);
+								break;
+							case "Rất tốt":
+								t.val(5);
+						}
+					}),
+					v("body p.stars a.star-5").trigger("click");
+			}),
+			v("#comment").keyup(function () {
+				e();
+			}),
+			e(),
+			v.validator.addMethod(
+				"vietnamphone",
+				function (e, t) {
+					return /^0+(\d{9,10})$/.test(e);
+				},
+				"Hãy điền đúng số điện thoại"
+			),
+			v.validator.addMethod(
+				"customemail",
+				function (e, t) {
+					return (
+						"" == e ||
+						/^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(
+							e
+						)
+					);
+				},
+				"Định dạng email không đúng."
+			),
+			v("#commentform").validate({
+				invalidHandler: function (e, t) {
+					t.numberOfInvalids() ? v("div.error").show() : v("div.error").hide();
+				},
+				rules: {
+					author: {
+						required: !0,
+						minlength: 2,
+					},
+					phone: {
+						required: {
+							depends: function () {
+								return v(this).val(v.trim(v(this).val())), !0;
+							},
+						},
+						vietnamphone: !0,
+						minlength: 2,
+					},
+					email: {
+						customemail: !0,
+					},
+					comment: {
+						required: !0,
+						minlength: devvn_reviews.cmt_length,
+					},
+				},
+				messages: {
+					author: "Hãy nhập họ tên",
+					email: "Hãy nhập đúng email",
+					phone: "Hãy nhập số điện thoại",
+					comment: {
+						required: "Hãy nhập nội dung tin nhắn",
+						minlength: "Tối thiểu " + devvn_reviews.cmt_length + " ký tự",
+					},
+				},
+				errorElement: "div",
+				errorPlacement: function (e, t) {
+					t.after(e);
+				},
+			}),
+			v(".btn-reviews-now").on("click", function () {
+				if (v("ol.commentlist .comment-respond").length <= 0)
+					v.magnificPopup.open({
+						items: {
+							src: "#review_form_wrapper",
+							type: "inline",
+						},
+						showCloseBtn: !1,
+						closeOnBgClick: !1,
+						modal: !0,
+					});
+				else {
+					var e = v(".commentlist #respond").offset().top;
+					v("html, body").animate(
+						{
+							scrollTop: e - 44,
+						},
+						500
+					);
+				}
+			}),
+			v(document).on("click", ".fancybox-close-small", function (e) {
+				e.preventDefault(), v.magnificPopup.close();
+			}),
+			0 < v("#commentform").length)
+		) {
+			v("#commentform")[0].encoding = "multipart/form-data";
+			var l = v(".devvn_attach_view"),
+				t = v(".list_attach");
+
+			function c() {
+				v("li", l).length <= 2 && 0 < v("li", l).length
+					? t.addClass("show-btn")
+					: t.removeClass("show-btn");
+			}
+			v("body").on("change", "#files", function (e) {
+				if (!e.target.files) return;
+				var t = e.target.files[0],
+					n = v(this);
+				if (t) {
+					var a = new FileReader();
+					(a.onload = (function (t) {
+						return function (e) {
+							!(function (e, t) {
+								return 0 !=
+									(function (e) {
+										return (
+											"image/jpeg" == e ||
+											"image/png" == e ||
+											"image/x-png" == e ||
+											"image/gif" == e
+										);
+									})(t.type)
+									? 0 !=
+											(function (e) {
+												return e < devvn_reviews.img_size;
+											})(t.size) ||
+											(alert(
+												"Tập tin (" +
+													t.name +
+													") quá lớn. Chỉ cho phép tải ảnh nhỏ hơn " +
+													devvn_reviews.img_size_text
+											),
+											!1)
+									: (alert(
+											"Tập tin (" +
+												t.name +
+												") không đúng định dạng. Chỉ được tải lên file jpg/png/gif"
+									  ),
+									  !1);
+							})(0, t) ||
+								(function (e, t, n) {
+									var a = n.clone().attr("name", "attach[]").removeAttr("id"),
+										i = v.now(),
+										r =
+											'<li><div class="img-wrap"><span class="close">&times;</span><div class="img-wrap-box"><img class="thumb" src="' +
+											e.target.result +
+											'" title="' +
+											encodeURI(t.name) +
+											'" data-id="' +
+											t.name +
+											'"/></div></div><div class="' +
+											i +
+											'"></div></li>';
+									l.append(r), v("." + i).append(a), c();
+								})(e, t, n);
+						};
+					})(t)),
+						a.readAsDataURL(t);
+				}
+			}),
+				v("body").on("click", ".devvn_insert_attach", function () {
+					var e = v(this).closest("#commentform");
+					return (
+						0 ==
+						(3 <= v("li", l).length
+							? (t.removeClass("show-btn"), !1)
+							: (t.addClass("show-btn"), !0))
+							? alert("Chỉ được phép tải lên 3 ảnh")
+							: v("#files", e).trigger("click"),
+						!1
+					);
+				}),
+				v("body").on("click", ".img-wrap .close", function () {
+					v(this).closest("li").remove(), c();
+				});
+		}
+		var s = !1,
+			n = v("#devvn_cmt"),
+			o = v(".devvn_prod_cmt");
+		n.validate({
+			onclick: !1,
+			onkeyup: !1,
+			onfocusout: !1,
+			rules: {
+				devvn_cmt_name: {
+					required: !0,
+					minlength: 2,
+				},
+				devvn_cmt_email: {
+					customemail: !0,
+				},
+				devvn_cmt_content: {
+					required: !0,
+					minlength: devvn_reviews.cmt_length,
+				},
+			},
+			messages: {
+				devvn_cmt_name: {
+					required: "Hãy nhập họ tên",
+					minlength: "Họ tên tối thiểu 2 ký tự",
+				},
+				devvn_cmt_email: "Hãy nhập đúng email",
+				devvn_cmt_content: {
+					required: "Hãy nhập nội dung tin nhắn",
+					minlength:
+						"Nội dùng bình luận tối thiểu " +
+						devvn_reviews.cmt_length +
+						" ký tự",
+				},
+			},
+			errorPlacement: function (e, t) {
+				alert(e.text());
+			},
+			submitHandler: function (t) {
+				if (!s) {
+					var e = v(t).serialize(),
+						n = v("#devvn_cmt_content", t).val(),
+						a = v('input[name="devvn_cmt_gender"]', t).val(),
+						i = v("#devvn_cmt_name", t).val(),
+						r = v("#devvn_cmt_email", t).val();
+					return (
+						v.ajax({
+							type: "post",
+							dataType: "json",
+							url: devvn_reviews.ajax_url,
+							data: {
+								action: "devvn_cmt_submit",
+								cmt_data: e,
+								content: n,
+								gender: a,
+								name: i,
+								email: r,
+							},
+							context: this,
+							beforeSend: function () {
+								(s = !0), o.addClass("devvn_loading");
+							},
+							success: function (e) {
+								e.success
+									? (e.data.result &&
+											e.data.fragments &&
+											v.each(e.data.fragments, function (e, t) {
+												v(e).html(t);
+											}),
+									  alert(e.data.messages),
+									  v("#devvn_cmt_content", t).val(""))
+									: alert(e.data),
+									(s = !1),
+									o.removeClass("devvn_loading");
+							},
+							error: function (e, t, n) {
+								alert(e.responseText), (s = !1), o.removeClass("devvn_loading");
+							},
+						}),
+						!1
+					);
+				}
+			},
+		});
+		var r = a.template("reply-devvn-cmt");
+		v("body").on("click", ".devvn_cmt_reply", function () {
+			v(".devvn_cmt_list_box #devvn_cmt_reply").remove();
+			var e = v(this).closest("li"),
+				t = v(this).attr("data-cmtid"),
+				n = "@" + v(this).attr("data-authorname") + ": ";
+			0 < v(".devvn_cmt_child", e).length
+				? v(".devvn_cmt_child li:nth-child(1)", e).prepend(
+						r({
+							parent_id: t,
+							authorname: n,
+						})
+				  )
+				: e.append(
+						r({
+							parent_id: t,
+							authorname: n,
+						})
+				  );
+			var a = v(".devvn_cmt_list_box #devvn_cmt_reply #devvn_cmt_replycontent"),
+				i = a.val();
+			return (
+				a.val("").focus().val(i),
+				v(".devvn_cmt_list_box #devvn_cmt_reply").validate({
+					onclick: !1,
+					onkeyup: !1,
+					onfocusout: !1,
+					rules: {
+						devvn_cmt_replyname: {
+							required: !0,
+							minlength: 2,
+						},
+						devvn_cmt_replyemail: {
+							customemail: !0,
+						},
+						devvn_cmt_replycontent: {
+							required: !0,
+							minlength: devvn_reviews.cmt_length,
+						},
+					},
+					messages: {
+						devvn_cmt_replyname: {
+							required: "Hãy nhập họ tên",
+							minlength: "Họ tên tối thiểu 2 ký tự",
+						},
+						devvn_cmt_replyemail: "Hãy nhập đúng email",
+						devvn_cmt_replycontent: {
+							required: "Hãy nhập nội dung tin nhắn",
+							minlength:
+								"Nội dùng bình luận tối thiểu " +
+								devvn_reviews.cmt_length +
+								" ký tự",
+						},
+					},
+					errorPlacement: function (e, t) {
+						alert(e.text());
+					},
+					submitHandler: function (t) {
+						if (!s) {
+							var e = v(t).serialize(),
+								n = v("#devvn_cmt_replycontent", t).val(),
+								a = v('input[name="devvn_cmt_replygender"]', t).val(),
+								i = v("#devvn_cmt_replyname", t).val(),
+								r = v("#devvn_cmt_replyemail", t).val();
+							return (
+								v.ajax({
+									type: "post",
+									dataType: "json",
+									url: devvn_reviews.ajax_url,
+									data: {
+										action: "devvn_cmt_submit",
+										cmt_data: e,
+										content: n,
+										gender: a,
+										name: i,
+										email: r,
+									},
+									context: this,
+									beforeSend: function () {
+										(s = !0), o.addClass("devvn_loading");
+									},
+									success: function (e) {
+										e.success
+											? (e.data.result &&
+													e.data.fragments &&
+													v.each(e.data.fragments, function (e, t) {
+														v(e).html(t);
+													}),
+											  alert(e.data.messages),
+											  v("#devvn_cmt_content", t).val(""))
+											: alert(e.data),
+											v(".devvn_cmt_list_box #devvn_cmt_reply").remove(),
+											(s = !1),
+											o.removeClass("devvn_loading");
+									},
+									error: function (e, t, n) {
+										alert(e.responseText),
+											(s = !1),
+											o.removeClass("devvn_loading");
+									},
+								}),
+								!1
+							);
+						}
+					},
+				}),
+				!1
+			);
+		}),
+			v("body").on("click", ".devvn_cancel_cmt", function () {
+				v(this).closest("#devvn_cmt_reply").remove();
+			}),
+			v("body").on("submit", "#devvn_cmt_search_form", function () {
+				var e = v("#devvn_cmt_search", this).val(),
+					t = v(this).serialize();
+				return (
+					s ||
+						v.ajax({
+							type: "post",
+							dataType: "json",
+							url: devvn_reviews.ajax_url,
+							data: {
+								action: "devvn_cmt_search",
+								search: e,
+								formData: t,
+							},
+							context: this,
+							beforeSend: function () {
+								(s = !0), o.addClass("devvn_loading");
+							},
+							success: function (e) {
+								e.success
+									? e.data.result &&
+									  e.data.fragments &&
+									  v.each(e.data.fragments, function (e, t) {
+											v(e).html(t);
+									  })
+									: alert(e.data),
+									(s = !1),
+									o.removeClass("devvn_loading");
+							},
+							error: function (e, t, n) {
+								alert(e.responseText), (s = !1), o.removeClass("devvn_loading");
+							},
+						}),
+					!1
+				);
+			}),
+			v(".cmt_attachment_img").each(function () {
+				v(this).magnificPopup({
+					delegate: "a",
+					type: "image",
+					mainClass: "mfp-img-mobile",
+					gallery: {
+						enabled: !0,
+						navigateByImgClick: !0,
+						preload: 0,
+					},
+				});
+			});
+	});
+})(jQuery, wp);

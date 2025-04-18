@@ -1,7 +1,7 @@
 <?php
 /*
 * Plugin Name: DevVN Woocommerce Reviews
-* Version: 2.0.7
+* Version: 2.0.9
 * Description: Thay đổi giao diện phần đánh giá và thêm phần thảo luận cho chi tiết sản phẩm trong Woocommerce
 * Author: Dao Quoc Dai
 * Author URI: https://github.com/itvn9online/devvn-woocommerce-reviews
@@ -19,7 +19,7 @@ if (!class_exists('DevVN_Reviews_Class')) {
     {
 
         protected static $instance;
-        public $_version = '2.0.7';
+        public $_version = '2.0.9';
 
         public $_optionName = 'devvn_reviews_options';
         public $_optionGroup = 'devvn_reviews-options-group';
